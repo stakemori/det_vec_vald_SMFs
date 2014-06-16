@@ -91,5 +91,6 @@ def check_sym8_odd(prec=sym8_odd_prec):
     f187 = f187.normalize((12, -1, 14))
     assert f187 == g187
 
+
 save_all_gens_sym8_odd()
 check_sym8_odd()
